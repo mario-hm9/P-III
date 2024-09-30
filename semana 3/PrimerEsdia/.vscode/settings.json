@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/mario/Documentos/Universidad/3º/Programación III/P-III/semana 2/primerBiblioteca/lib/biblioteca11.jar"
+    ]
+}

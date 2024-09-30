@@ -18,7 +18,7 @@ public class PrimerUsoConsole {
 
         int edad = anio_actual2 - anio_nacimiento2;
         
-        System.out.println("La edad es: "+edad);
+        System.out.println("La edad es: " + edad);
     }
 }
     

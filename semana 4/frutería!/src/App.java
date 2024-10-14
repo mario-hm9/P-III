@@ -29,9 +29,6 @@ public class App {
         System.out.print("Por favor, indique cuántas peras desea: ");
         int cantidadPeras = scanner.nextInt();
         pera.setCantidad(cantidadPeras);
-        
-        
-
 
         scanner.close();
 
@@ -44,10 +41,6 @@ public class App {
         System.out.println("|------------------------------------------------------------------|");
         System.out.printf("| Total con IVA %6.2f €                                           |\n", manzana.getCantidad()*manzana.getPrecioKg() + pera.getCantidad()*pera.getPrecioKg());
         System.out.println("|------------------------------------------------------------------|\n");
-
-
-
-
 
 
     }

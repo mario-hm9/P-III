@@ -12,9 +12,13 @@ public class App {
             coches[i] = Coches.anadirCoche(coches[i]);
             indice++;
         }
-
+        borrar=1;
         coches = Coches.eliminarCoche(coches, borrar, indice);
+        indice--;
 
+        for(int i=0; i<indice; i++){
+        System.out.printf("coches %d %s %s %s\n",i, coches[i].getColor(), coches[i].getMarca(), coches[i].getModelo());
+        }
         
 
     }

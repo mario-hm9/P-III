@@ -39,12 +39,10 @@ public class Coches {
 
     public static Coches[] eliminarCoche(Coches[] coches, int borrar, int indice){ 
 
-        coches[borrar] = null;
-
-        for(int i=borrar; i<indice; i++){
-            coches[i] = coches[i+1];
+        for(int i=borrar+1; i<indice; i++){
+            coches[borrar-1] = coches[i];
         }
-        coches[indice] = null;
+        coches[indice-1] = null;
         return coches;
     }
    

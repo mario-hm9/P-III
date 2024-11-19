@@ -1,0 +1,3 @@
+leerVentas
+    llamar controller, que llame a modelo
+    en modelo declarar hashmap

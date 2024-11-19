@@ -9,8 +9,8 @@ public class PrimerUsoConsole {
             System.err.println("Error al crear consola.");
             return;
         }
-
-        String anio_nacimiento = consola.readLine("Inserte el año de nacimiento: ");
+        int i=2;
+        String anio_nacimiento = consola.readLine("Inserte el año de nacimiento: %d",i);
         int anio_nacimiento2 = Integer.parseInt(anio_nacimiento);
 
         String anio_actual = consola.readLine("Inserte el año actual: ");

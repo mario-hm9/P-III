@@ -15,16 +15,13 @@ public class Partido {
         this.equipoVisitante = equipoVisitante;
     }
 
-
     public String getEquipoLocal() {
         return equipoLocal;
     }
 
-
     public void setEquipoLocal(String equipoLocal) {
         this.equipoLocal = equipoLocal;
     }
-
 
     public String getEquipoVisitante() {
         return equipoVisitante;

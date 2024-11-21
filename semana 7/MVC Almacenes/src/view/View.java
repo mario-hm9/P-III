@@ -55,8 +55,9 @@ public class View {
         for(Map.Entry<Integer,Double> entry : alpargatas.entrySet()){
             key = entry.getKey();
             System.out.printf ("\n-------------------------- Almacén %d --------------------------\n",i);
-            System.out.printf   ("     Alpargatas:   %-5.0f%n", alpargatas.get(key));
+            System.out.printf   ("     Alpargatas:   %-5.0f", alpargatas.get(key));
             System.out.printf   ("                   Frigopies:  %.0f\n\n", frigopies.get(key));
+            i++;
         }
     }
     

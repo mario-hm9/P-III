@@ -1,0 +1,19 @@
+- cargar ruta
+Path ruta = Paths.get(getProperty(user.home), "Escritorio", "datos.txt");
+
+- leer de fichero todas las líneas
+- tiene que estar dentro de un try-catch
+Files.readAllLines(ruta, StandardCharsets.UTF_8)
+
+- otra forma de leer: hacer ref de la ruta, comprobar, scanner
+  File pathRef = ruta.toFile();
+  if( !pathRef.exists() || pathRef.isDirectory )
+  Scanner scanner = new Scanner(rutaRef);
+  String linea scanner.nextLine();
+  
+- numero aleatorio
+  int v;
+        v  = (int) (Math.random() * 4) +1;
+  
+
+

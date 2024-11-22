@@ -12,8 +12,51 @@ Files.readAllLines(ruta, StandardCharsets.UTF_8)
   String linea scanner.nextLine();
   
 - numero aleatorio
-  int v;
-        v  = (int) (Math.random() * 4) +1;
+  int v  = (int) (Math.random() * 4) +1;
+ 
+
+ARRAYlIST
+
+- colección ordenada
+- puede haber elementos duplicados
+
+new ArrayList<Persona> personas = new ArrayList<>();
+personas.add(persona)
+
+for(Persona persona : personas)
+    if(persona.getNombre().equalsIgnoreCase(nombre))
+       personas.remove(persona)
+       
+lista.set(indice, nuevoElemento);
+
+
+ 
+HASHSET
+
+- no mantiene orden
+- no permite elementos duplicados
   
+  Convertir el array a una lista
+List<String> fruitsList = Arrays.asList(fruitsArray); 
+
+
+HASHMAP
+
+- clave no repetible
+
+enseñar hashmap
+Map.Entry<Key, Persona> entry : coches.entrySet()){
+	key = entry.getKey()
+	Persona p = entry.getValue()
+	
+ver si tiene algo dentro
+personas.containsKey(key)
+
+eliminar dato
+if(personas.containsKey()){
+
+añadir dato
+personas.put("key", ...)
+	
 
 

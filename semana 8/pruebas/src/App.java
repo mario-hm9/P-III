@@ -18,8 +18,8 @@ public class App {
 
         String valor = scanner.nextLine();
         System.out.println(valor);
-        int off = scanner.nextInt();
-        System.out.println(off);
+        int = scanner.nextInt();
+        System.out.println(valor);
 
         int i = scanner.nextInt();
         System.out.println(i);

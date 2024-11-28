@@ -60,3 +60,28 @@ personas.put("key", ...)
 	
 
 
+
+ArrayList: meter dato personas.add()
+           sacar dato personas.remove()
+
+HashMap: meter dato: personas.put()
+	 sacar dato: if(personas.containsKey()) personas.remove();
+	 reemplazar: Map.Entry<Key, Persona> entry = personas.entrySet();
+
+
+
+
+
+mover carpeta jdk Disco local - Archihvos de programa - Java
+
+
+Scanner scanner = new Scanner(ruta)
+declarar scanner hacia File ruta
+
+while(scanner.hasNextLine())
+	String linea = scanner.nextLine();	
+
+
+
+
+

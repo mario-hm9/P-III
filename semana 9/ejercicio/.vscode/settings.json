@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/mario/Documentos/Universidad/3º/Programación III/biblioteca11.jar",
+        "/home/mario/Documentos/Universidad/3º/Programación III/gson-2.10.1.jar",
+        "/home/mario/Documentos/Universidad/3º/Programación III/jackson/stax2-api-4.0.0.jar",
+        "/home/mario/Documentos/Universidad/3º/Programación III/jackson/jackson-databind-2.15.3.jar",
+        "/home/mario/Documentos/Universidad/3º/Programación III/jackson/jackson-annotations-2.15.3.jar",
+        "/home/mario/Documentos/Universidad/3º/Programación III/jackson/jackson-core-2.15.3.jar",
+        "/home/mario/Documentos/Universidad/3º/Programación III/jackson/jackson-dataformat-xml-2.15.3.jar"
+    ]
+}

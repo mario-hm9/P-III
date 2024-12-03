@@ -1,0 +1,11 @@
+catch (FileNotFoundException e) {
+            System.out.println("Archivo no encontrado: " + e.getMessage());
+        } catch (IOException e) {
+            System.out.println("Error de entrada/salida: " + e.getMessage());
+        } catch (ClassNotFoundException e) {
+            System.out.println("Clase no encontrada: " + e.getMessage());
+        } catch (ClassCastException e) {
+            System.out.println("Error de conversión de clase: " + e.getMessage());
+        } catch (Exception e) {
+            System.out.println("Error al deserializar: " + e.getMessage());
+        }

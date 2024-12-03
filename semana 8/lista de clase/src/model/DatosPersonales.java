@@ -66,6 +66,9 @@ public class DatosPersonales {
 
             nifFinal = tmp.get(0)+tmp.get(1);
 
+            if(nifFinal.length() != 9)
+                nifFinal = 0 + nifFinal;
+
             for(Alumno alumno : alumnos){
                 if(alumno.getDatosPersonales().getNIF() == letra ){
                     salir = false;
@@ -105,7 +108,7 @@ public class DatosPersonales {
         String apellido2 = apellidos.get(aleatorio);
 
         String apellido = apellido1 + " " + apellido2;
-
+        
         aleatorio = random.nextInt(95);
 
         return new DatosPersonales(nombre, apellido, aleatorio, generarNif(alumnos));
